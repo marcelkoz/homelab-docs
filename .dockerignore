@@ -1,0 +1,11 @@
+node_modules
+site
+dist
+.git
+.gitignore
+.env
+.env.*
+*.md
+!docs/**/*.md
+.DS_Store
+Thumbs.db
