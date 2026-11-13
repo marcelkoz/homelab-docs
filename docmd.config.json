@@ -1,6 +1,6 @@
 {
   "title": "Homelab Documentation",
-  "url": "https://docs.myproject.com",
+  "url": "https://FIXME",
   "src": "docs",
   "out": "site",
   "engine": "js",
@@ -27,7 +27,9 @@
         "themeSwitch": true
       }
     },
-    "footer": {}
+    "footer": {
+      "content": "{{ BUILD_YEAR }} Homelab. Built from git `{{ GIT_COMMIT }}`."
+    }
   },
   "theme": {
     "name": "default",
@@ -39,6 +41,13 @@
   "copyCode": true,
   "pageNavigation": true,
   "plugins": {
-    "llms": {}
+    "ai": {
+      "assistant": false
+    },
+    "git": {},
+    "llms": {},
+    "okf": {},
+    "seo": {},
+    "sitemap": {}
   }
 }
