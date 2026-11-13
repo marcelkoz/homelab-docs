@@ -1,0 +1,33 @@
+[
+    { "title": "Home", "path": "/" },
+    {
+        "title": "Networking",
+        "collapsible": true,
+        "children": [
+            { "title": "Overview", "path": "/networking/overview/" },
+            { "title": "IP Addressing", "path": "/networking/ip_addressing/" },
+            { "title": "VLANs", "path": "/networking/vlans/" },
+            { "title": "Services", "path": "/networking/services/" },
+            { "title": "DHCP", "path": "/networking/dhcp/" },
+            { "title": "DNS", "path": "/networking/dns/" }
+        ]
+    },
+    {
+        "title": "Servers",
+        "collapsible": true,
+        "children": [
+            { "title": "Overview", "path": "/servers/overview/" },
+            { "title": "Proxmox", "path": "/servers/proxmox/" },
+            { "title": "VMs", "path": "/servers/vms/" }
+        ]
+    },
+    {
+        "title": "Services",
+        "collapsible": true,
+        "children": [
+            { "title": "Overview", "path": "/services/overview/" },
+            { "title": "Backups", "path": "/services/backups/" },
+            { "title": "DNS", "path": "/services/dns/" }
+        ]
+    }
+]
